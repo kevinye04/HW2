@@ -1,4 +1,13 @@
 ignore this line
-ATCAGAACTA
+list=ATCAGAACTA
 ignore this line
 ignore this line
+a=0
+b=0
+for i in list:
+  if i='A' or i='T':
+    a=a+1
+  else:
+    b=b+1
+print(a)
+print(b)
